@@ -1,9 +1,7 @@
 name: Python Coverage
 
 on:
-  pull_request:
-    branches:
-      - main
+   push
 
 permissions:
   pull-requests: write
