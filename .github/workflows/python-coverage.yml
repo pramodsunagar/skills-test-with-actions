@@ -1,7 +1,5 @@
 name: Python Coverage
 # New line
-# New line
-# New line
 on:
   pull_request:
     branches:
@@ -39,6 +37,6 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           MINIMUM_GREEN: 80
           MINIMUM_ORANGE: 70
-
+        # New line
       - name: Fail if below threshold
         run: coverage report --fail-under=90
